@@ -14,7 +14,7 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-16 min-h-screen flex flex-col justify-center">
         {/* Large Headline */}
         <h1 className="text-6xl md:text-8xl font-bold text-white mb-12 tracking-tight">
-          COWORKING SPACE
+          COWORKING STUDIO
         </h1>
 
         {/* Two Column Layout */}
