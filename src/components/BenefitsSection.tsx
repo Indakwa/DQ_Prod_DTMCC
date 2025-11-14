@@ -1,14 +1,15 @@
-import React from 'react';
+import liftImage from "../images/lift.jpeg";
+
 export function BenefitsSection() {
   const benefits = [{
     label: 'Growth',
-    description: "Whether you're a startup or an enterprise, Keep team our tools are built to help you stay ahead."
+    description: "DWS gives you a space that helps you work better, connect faster, and scale with confidence."
   }, {
     label: 'Workflow',
-    description: "Whether you're a startup or an enterprise, our tools are built to help you stay ahead."
+    description: "DWS is designed to streamline how you collaborate, meet, and get things done."
   }, {
     label: 'Smart',
-    description: "Whether you're a startup or an enterprise, our tools are built to help you stay ahead."
+    description: "DWS blends a modern workspace with smart, simple systems to help you operate efficiently."
   }];
   return <section className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -26,8 +27,8 @@ export function BenefitsSection() {
         {/* Content Grid */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Image */}
-          <div className="rounded-3xl overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80" alt="Team meeting in coworking space" className="w-full h-full object-cover" />
+          <div className="rounded-3xl overflow-hidden h-[550px]">
+            <img src={liftImage} alt="Team meeting in coworking space" className="w-full h-full object-cover" />
           </div>
 
           {/* Right - Benefits */}

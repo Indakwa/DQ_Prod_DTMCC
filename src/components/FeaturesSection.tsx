@@ -39,12 +39,6 @@ export function FeaturesSection() {
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">Prime Location</p>
             </div>
-
-            {/* Stats Overlay */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl p-6 shadow-lg text-center">
-              <div className="text-4xl font-bold text-gray-900">+145</div>
-              <div className="text-gray-500 text-sm mt-1">objects</div>
-            </div>
           </div>
 
           {/* Feature Card 3 - High-Speed Internet */}
