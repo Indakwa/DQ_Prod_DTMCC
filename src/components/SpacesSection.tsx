@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+import Brenda from "../images/brenda.jpeg";
+
+import { useState } from "react";
+
 import { Briefcase, Building2, Users } from 'lucide-react';
 export function SpacesSection() {
   const [activeTab, setActiveTab] = useState('strategy');
@@ -20,7 +23,7 @@ export function SpacesSection() {
   }];
   const spaces = [{
     icon: Briefcase,
-    title: 'Dedicated Desk',
+    title: 'Hot Desk',
     description: 'Your own permanent desk with storage. Ideal for professionals who need consistency.'
   }, {
     icon: Building2,
@@ -59,7 +62,7 @@ export function SpacesSection() {
         <div className="grid lg:grid-cols-2 gap-8 items-center bg-gray-100 rounded-3xl overflow-hidden p-8 lg:p-0">
           {/* Left - Image */}
           <div className="order-2 lg:order-1">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" alt="Professional workspace" className="w-full h-full object-cover rounded-2xl lg:rounded-none" />
+            <img src={Brenda} alt="Professional workspace" className="w-full h-full object-cover rounded-2xl lg:rounded-none" />
           </div>
 
           {/* Right - Space Options */}

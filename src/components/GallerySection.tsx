@@ -1,4 +1,5 @@
-import React from 'react';
+import SecurityImage from "../images/secure.jpeg";
+
 export function GallerySection() {
   return <section className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -17,7 +18,7 @@ export function GallerySection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Large Left Card - Open Workspace */}
           <div className="relative rounded-3xl overflow-hidden md:row-span-2 lg:col-span-1 lg:row-span-2 h-[400px] md:h-auto group">
-            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80" alt="Open workspace" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <img src={SecurityImage} alt="Open workspace" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-xl font-bold mb-2">Open workspace</h3>

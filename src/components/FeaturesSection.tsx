@@ -1,4 +1,8 @@
-import React from 'react';
+import netImage from "../images/net.png";
+import Location from "../images/location.jpeg";
+import liftImage from "../images/lift.jpeg";
+
+
 import { ArrowRight } from 'lucide-react';
 export function FeaturesSection() {
   return <section className="py-20 px-6 bg-gray-50">
@@ -26,16 +30,16 @@ export function FeaturesSection() {
           {/* Feature Card 1 - Networking Events */}
           <div className="relative rounded-3xl overflow-hidden group">
             <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Networking Events" className="w-full h-64 object-cover" />
+            <img src={liftImage} alt="Networking Events" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
-              <p className="text-white font-medium">Networking Events</p>
+              <p className="text-white font-medium">Seamless Flow</p>
             </div>
           </div>
 
           {/* Feature Card 2 - Prime Location */}
           <div className="relative rounded-3xl overflow-hidden group">
             <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
-            <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80" alt="Prime Location" className="w-full h-64 object-cover" />
+            <img src={Location} alt="Prime Location" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">Prime Location</p>
             </div>
@@ -44,7 +48,7 @@ export function FeaturesSection() {
           {/* Feature Card 3 - High-Speed Internet */}
           <div className="relative rounded-3xl overflow-hidden group md:col-span-2 lg:col-span-1">
             <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
-            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="High-Speed Internet" className="w-full h-64 object-cover" />
+            <img src={netImage} alt="High-Speed Internet" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">High-Speed Internet</p>
             </div>

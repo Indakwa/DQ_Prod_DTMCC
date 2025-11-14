@@ -25,7 +25,7 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="space-y-6">
             <p className="text-white text-lg leading-relaxed max-w-lg">
-              We’ve got the perfect space for you, from hot desks to private offices, our workspaces are designed to fuel your productivity and creativity.
+              An intelligent workspace that blends physical and digital tools to boost collaboration, productivity, and innovation.
             </p>
 
             <button className="flex items-center gap-3 bg-white px-6 py-3 rounded-full font-medium text-gray-900 hover:bg-gray-100 transition-colors group">
