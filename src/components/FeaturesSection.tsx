@@ -1,4 +1,4 @@
-import netImage from "../images/net.png";
+import netImage from "../images/ted.jpeg";
 import Location from "../images/location.jpeg";
 import liftImage from "../images/lift.jpeg";
 

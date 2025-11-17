@@ -1,4 +1,7 @@
 import SecurityImage from "../images/secure.jpeg";
+import emptyRoom from "../images/hero-3.jpeg";
+import ladyImage from "../images/lady.jpeg";
+import hallImage from "../images/hallway.jpeg";
 
 export function GallerySection() {
   return <section className="py-20 px-6 bg-white">
@@ -31,7 +34,7 @@ export function GallerySection() {
 
           {/* Top Right Small - Private Office */}
           <div className="relative rounded-3xl overflow-hidden h-[250px] md:h-[300px] lg:col-span-2 group">
-            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Private office" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <img src={emptyRoom} alt="Private office" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-lg font-bold mb-2">Private office with...</h3>
@@ -42,8 +45,8 @@ export function GallerySection() {
           </div>
 
           {/* Middle Right Small - Collaboration */}
-          <div className="relative rounded-3xl overflow-hidden h-[250px] md:h-[300px] group">
-            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" alt="Collaboration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          <div className="relative rounded-3xl overflow-hidden h-[300px] md:h-[350px] group">
+            <img src={ladyImage} alt="Collaboration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-lg font-bold mb-2">Collaboration</h3>
@@ -55,7 +58,7 @@ export function GallerySection() {
 
           {/* Bottom Wide - Lounge */}
           <div className="relative rounded-3xl overflow-hidden h-[300px] md:h-[350px] group">
-            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=1200&q=80" alt="Lounge with cozy seating" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <img src={hallImage} alt="Lounge with cozy seating" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-xl font-bold mb-2">

@@ -1,4 +1,4 @@
-import liftImage from "../images/lift.jpeg";
+import tedImage from "../images/hero-3.jpeg";
 
 export function BenefitsSection() {
   const benefits = [{
@@ -28,7 +28,7 @@ export function BenefitsSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Image */}
           <div className="rounded-3xl overflow-hidden h-[550px]">
-            <img src={liftImage} alt="Team meeting in coworking space" className="w-full h-full object-cover" />
+            <img src={tedImage} alt="Team meeting in coworking space" className="w-full h-full object-cover" />
           </div>
 
           {/* Right - Benefits */}
