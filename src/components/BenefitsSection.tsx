@@ -39,7 +39,7 @@ export function BenefitsSection() {
 
             <div className="space-y-6">
               {benefits.map((benefit, index) => <div key={index} className="flex gap-4 items-start">
-                  <span className="px-4 py-1 bg-yellow-50 text-yellow-600 rounded-full text-sm font-medium whitespace-nowrap">
+                  <span className="px-4 py-1 bg-[#f92900] text-yellow-600 rounded-full text-sm font-medium whitespace-nowrap">
                     {benefit.label}
                   </span>
                   <p className="text-gray-600 leading-relaxed">

@@ -30,7 +30,7 @@ export function HeroSection() {
 
             <button className="flex items-center gap-3 bg-white px-6 py-3 rounded-full font-medium text-gray-900 hover:bg-gray-100 transition-colors group">
               GET A FREE QUOTE
-              <span className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center group-hover:bg-yellow-500 transition-colors">
+              <span className="w-8 h-8 bg-[#f92900] rounded-full flex items-center justify-center group-hover:bg-[#f92900] transition-colors">
                 <ArrowRight size={18} />
               </span>
             </button>

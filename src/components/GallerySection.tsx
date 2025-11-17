@@ -12,8 +12,7 @@ export function GallerySection() {
             See How Our Space Transforms Work
           </h2>
           <p className="text-gray-500 text-sm max-w-2xl mx-auto">
-            With years of expertise, our mission is to make solar energy
-            accessible, affordable, and efficient for everyone.
+           A workspace that elevates every part of your day.
           </p>
         </div>
 
@@ -24,10 +23,9 @@ export function GallerySection() {
             <img src={SecurityImage} alt="Open workspace" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h3 className="text-xl font-bold mb-2">Open workspace</h3>
+              <h3 className="text-xl font-bold mb-2">Secure Entrance</h3>
               <p className="text-sm text-white/90">
-                No barriers to collaboration—just join instantly, connect with
-                your team from anywhere.
+                Smart biometric access for approved members only.
               </p>
             </div>
           </div>
@@ -37,9 +35,9 @@ export function GallerySection() {
             <img src={emptyRoom} alt="Private office" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h3 className="text-lg font-bold mb-2">Private office with...</h3>
+              <h3 className="text-lg font-bold mb-2">Space to Be Partitioned</h3>
               <p className="text-sm text-white/90">
-                No barriers to collaboration—just join instantly.
+                Open floor ready for transformation into private offices and team rooms.
               </p>
             </div>
           </div>
@@ -49,9 +47,9 @@ export function GallerySection() {
             <img src={ladyImage} alt="Collaboration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h3 className="text-lg font-bold mb-2">Collaboration</h3>
+              <h3 className="text-lg font-bold mb-2">People Working</h3>
               <p className="text-sm text-white/90">
-                No barriers to collaboration—just join instantly.
+                Connect, get work done, and share ideas effortlessly.
               </p>
             </div>
           </div>
@@ -62,10 +60,10 @@ export function GallerySection() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <h3 className="text-xl font-bold mb-2">
-                Lounge with cozy seating
+                Minimal hallway
               </h3>
               <p className="text-sm text-white/90">
-                Make data-driven decisions.
+                Shared zones for a seamless workspace experience.
               </p>
             </div>
           </div>

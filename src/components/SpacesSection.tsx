@@ -1,26 +1,9 @@
 import Brenda from "../images/brenda.jpeg";
 
-import { useState } from "react";
 
 import { Briefcase, Building2, Users } from 'lucide-react';
 export function SpacesSection() {
-  const [activeTab, setActiveTab] = useState('strategy');
-  const tabs = [{
-    id: 'strategy',
-    label: 'Strategy & Planning'
-  }, {
-    id: 'analytics',
-    label: 'Analytics'
-  }, {
-    id: 'support',
-    label: 'Support'
-  }, {
-    id: 'integrations',
-    label: 'Integrations'
-  }, {
-    id: 'security',
-    label: 'Security'
-  }];
+
   const spaces = [{
     icon: Briefcase,
     title: 'Hot Desk',
@@ -45,18 +28,17 @@ export function SpacesSection() {
           </div>
           <div className="flex items-start lg:items-center">
             <p className="text-gray-500 text-sm leading-relaxed">
-              We make marketing easy with a clear, step-by-step approach to
-              drive real business growth
+              Designed for collaboration. Powered by community. <br /> Work that feels better and flows better.
             </p>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex flex-wrap gap-3 mb-12">
+        {/* <div className="flex flex-wrap gap-3 mb-12">
           {tabs.map(tab => <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={`px-6 py-3 rounded-full font-medium transition-colors ${activeTab === tab.id ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
               {tab.label}
             </button>)}
-        </div>
+        </div> */}
 
         {/* Content */}
         <div className="grid lg:grid-cols-2 gap-8 items-center bg-gray-100 rounded-3xl overflow-hidden p-8 lg:p-0">
@@ -71,11 +53,11 @@ export function SpacesSection() {
               {spaces.map((space, index) => {
               const Icon = space.icon;
               return <div key={index} className="flex gap-4 items-start">
-                    <div className="w-10 h-10 bg-yellow-50 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-5 h-5 text-yellow-600" />
+                    <div className="w-10 h-10 bg-[#f92900] rounded-full flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-black-600" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-900 mb-2">
+                      <h3 className="font-bold text-white-900 mb-2">
                         {space.title}
                       </h3>
                       <p className="text-gray-600 text-sm leading-relaxed">

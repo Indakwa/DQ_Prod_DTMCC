@@ -29,7 +29,7 @@ export function FeaturesSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
           {/* Feature Card 1 - Networking Events */}
           <div className="relative rounded-3xl overflow-hidden group">
-            <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
+            <div className="absolute top-4 right-4 w-10 h-10 bg-[#f92900] rounded-full z-10"></div>
             <img src={liftImage} alt="Networking Events" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">Seamless Flow</p>
@@ -38,7 +38,7 @@ export function FeaturesSection() {
 
           {/* Feature Card 2 - Prime Location */}
           <div className="relative rounded-3xl overflow-hidden group">
-            <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
+            <div className="absolute top-4 right-4 w-10 h-10 bg-[#f92900] rounded-full z-10"></div>
             <img src={Location} alt="Prime Location" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">Prime Location</p>
@@ -47,7 +47,7 @@ export function FeaturesSection() {
 
           {/* Feature Card 3 - High-Speed Internet */}
           <div className="relative rounded-3xl overflow-hidden group md:col-span-2 lg:col-span-1">
-            <div className="absolute top-4 right-4 w-10 h-10 bg-yellow-400 rounded-full z-10"></div>
+            <div className="absolute top-4 right-4 w-10 h-10 bg-[#f92900] rounded-full z-10"></div>
             <img src={netImage} alt="High-Speed Internet" className="w-full h-64 object-cover" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
               <p className="text-white font-medium">High-Speed Internet</p>
